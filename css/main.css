@@ -1,0 +1,87 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+
+.caption { text-align: center;}
+body{
+    background-color: #AC1E34;
+}
+
+
+h3 {
+    color: #f7b753
+}
+
+.navbar-inverse{
+    background-image: linear-gradient(to bottom,#2B2321  0,#2B2321  100%);
+}
+
+.glyphicon{
+    color: #FFF;
+}
+
+.rating{
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.description span{
+    width: 20px;
+}
+.collection span{
+    margin-right: 35px;
+}
+.description img {
+    margin-top: 20px;
+}
+.description{
+    margin-bottom: 15px;
+}
+
+.description .col-xs-7{
+    padding: 0;
+}
+
+.btn-primary{
+}
+p{
+    color: #FFF;
+}
+
+.price p{
+    line-height: 180%;
+}
+.panel-default>.panel-heading{
+    background-image: linear-gradient(to bottom,#E9DAB3  0,#dbcda7  100%);
+}
+
+/*tickets*/
+
+.price{
+    background-color: #479653;
+    height: 55px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.option {
+    background-color: #f7b753;
+    height: 55px;
+}
+.option button{
+    margin-top: 5px;
+}
+
+.spacer{
+    height: 5px;
+}
+
+.ticketItem{
+    border-bottom: 1px solid #6a6453;
+}
