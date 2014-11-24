@@ -85,3 +85,7 @@ p{
 .ticketItem{
     border-bottom: 1px solid #6a6453;
 }
+
+#search {
+    width: 20%;
+}
