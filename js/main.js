@@ -26,3 +26,4 @@ $('.carousel .item').each(function(){
             window.location = "tickets.html";
         }
     });
+

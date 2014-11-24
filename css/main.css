@@ -35,7 +35,7 @@ h3 {
     width: 20px;
 }
 .collection span{
-    margin-right: 35px;
+    margin-right: 0;
 }
 .description img {
     margin-top: 20px;
@@ -48,14 +48,17 @@ h3 {
     padding: 0;
 }
 
+
 .btn-primary{
+    margin: 5px 0;
+    width: 100%;
 }
 p{
     color: #FFF;
 }
 
 .price p{
-    line-height: 180%;
+    line-height: 230%;
 }
 .panel-default>.panel-heading{
     background-image: linear-gradient(to bottom,#E9DAB3  0,#dbcda7  100%);
@@ -81,11 +84,19 @@ p{
 .spacer{
     height: 5px;
 }
-
-.ticketItem{
-    border-bottom: 1px solid #6a6453;
+.seating{
+    padding: 15px;
 }
-
+.ticketItem{
+    
+}
+span{
+ color: #fff;
+}
+select{
+    color: #000;
+    margin-left: 15px;
+}
 #search {
     width: 20%;
 }
