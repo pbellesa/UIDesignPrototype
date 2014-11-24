@@ -39,7 +39,7 @@ h3 {
 }
 
 .collection{
-   
+   text-align: right;
 }
 .description img {
     margin-top: 20px;
@@ -67,7 +67,7 @@ label{
     line-height: 230%;
 }
 .panel-default>.panel-heading{
-    background-image: linear-gradient(to bottom,#E9DAB3  0,#dbcda7  100%);
+    background-image: linear-gradient(to bottom,#479653  0,#479653  100%);
 }
 
 .margin {
