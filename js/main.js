@@ -27,3 +27,4 @@ $('.carousel .item').each(function(){
         }
     });
 
+$('.selectpicker').selectpicker();

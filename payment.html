@@ -6,7 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
@@ -29,7 +29,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">TIX  </a>
+          <a class="navbar-brand" href="index.html">TIX  </a>
 
        
 
@@ -41,14 +41,14 @@
         </div><!--/.navbar-collapse -->
       </div>
     </div>
-        <div class="ticketItem">
+        <div class="">
             <div class="container">
                 <div class="row">
                     
                     <div class="col-xs-12">
                         <div class="row option">
                             <div class="spacer"></div>
-                            <div class="col-xs-12 collection">
+                            <div class="col-xs-12 payment">
                                 <div class="btn-group" role="group" aria-label="...">
                                   <button type="button" class="btn btn-default">Visa</button>
                                   <button type="button" class="btn btn-default">MasterCard</button>
@@ -62,35 +62,36 @@
                 </div>
             </div>
         </div>
-        <div class="container payment">
+        <div class="container ">
             <div role="form">
+                <h3>Card Information</h3>
               <div class="form-group">
                 <label for="exampleInputEmail1">Card Number</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter card #">
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Card #">
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Name</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name on the card">
               </div>
-                <p>Billing</p>
+                <h3>Billing</h3>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Name</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Address</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Address">
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Postal Code</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="X1X 1X1">
               </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">City</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="City name">
               </div>
                 <div class="form-group">
-                    <select>
+                    <select class="selectpicker" data-width="20%">
                         <option>ON</option>
                         <option>QC</option>
                     </select>
@@ -98,7 +99,7 @@
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Telephone</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter name on the card">
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
               </div>
 
 
@@ -120,7 +121,8 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
-
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+       
         <script src="js/main.js"></script>
     </body>
 </html>
