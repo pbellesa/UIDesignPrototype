@@ -1,6 +1,6 @@
 # UIDesignPrototype
 BTH Assignment - Tix
 
-Theather Ticket Selling App Prototype - Mobile
+Theatre Ticket Selling App Prototype - Mobile
 
 http://pbellesa.github.io/UIDesignPrototype
